@@ -7,7 +7,7 @@ export const SITE_CONFIG = {
   githubUsername: 'anishkumarpanda',
   linkedin: 'https://linkedin.com/in/anishkumarpanda',
   resumeUrl: '/resume.pdf',
-  siteUrl: 'https://anishpanda.dev',
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://anishpanda.dev',
   description:
     'Full-Stack Engineer building scalable products and reliable infrastructure. React, Next.js, Node.js, AWS, Docker, CI/CD.',
   ogImage: '/og-image.png',
