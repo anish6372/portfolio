@@ -71,20 +71,20 @@ export default function Hero() {
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.6, type: 'spring' }}
-              className="absolute top-1/4 -left-4 md:left-2 bg-white/95 backdrop-blur-md shadow-2xl rounded-2xl p-4 border border-white/20 hidden sm:block z-20"
+              className="absolute top-1/4 -left-2 sm:-left-4 md:left-2 bg-white/95 backdrop-blur-md shadow-2xl rounded-2xl p-3 sm:p-4 border border-white/20 z-20"
             >
-              <div className="text-zinc-900 font-black text-2xl">2+</div>
-              <div className="text-zinc-600 text-xs font-bold uppercase tracking-widest">YEARS EXP.</div>
+              <div className="text-zinc-900 font-black text-xl sm:text-2xl">2+</div>
+              <div className="text-zinc-600 text-[10px] sm:text-xs font-bold uppercase tracking-widest">YEARS EXP.</div>
             </motion.div>
 
             <motion.div 
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.8, type: 'spring' }}
-              className="absolute bottom-1/4 -right-4 md:right-4 bg-zinc-900/95 backdrop-blur-md shadow-2xl rounded-2xl p-4 border border-zinc-700 text-white hidden sm:block z-20"
+              className="absolute bottom-1/4 -right-2 sm:-right-4 md:right-4 bg-zinc-900/95 backdrop-blur-md shadow-2xl rounded-2xl p-3 sm:p-4 border border-zinc-700 text-white z-20"
             >
-              <div className="text-[#F9E13E] font-black text-2xl">AWS</div>
-              <div className="text-zinc-300 text-xs font-bold uppercase tracking-widest">CERTIFIED</div>
+              <div className="text-[#F9E13E] font-black text-xl sm:text-2xl">AWS</div>
+              <div className="text-zinc-300 text-[10px] sm:text-xs font-bold uppercase tracking-widest">CERTIFIED</div>
             </motion.div>
 
           </div>
