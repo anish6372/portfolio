@@ -1,0 +1,72 @@
+import {
+  Globe,
+  Server,
+  Database,
+  Cloud,
+  GitBranch,
+  Wrench,
+} from 'lucide-react';
+
+export const SKILL_CATEGORIES = [
+  {
+    title: 'Frontend',
+    icon: Globe,
+    color: 'from-blue-500 to-cyan-400',
+    skills: [
+      'React.js',
+      'Next.js',
+      'Angular',
+      'JavaScript ES6+',
+      'TypeScript',
+      'Tailwind CSS',
+      'Material UI',
+      'ShadCN UI',
+      'Redux',
+      'Context API',
+      'HTML5',
+      'CSS3',
+    ],
+  },
+  {
+    title: 'Backend',
+    icon: Server,
+    color: 'from-violet-500 to-purple-400',
+    skills: [
+      'Node.js',
+      'Express.js',
+      'REST APIs',
+      'JWT Authentication',
+      'OAuth2',
+    ],
+  },
+  {
+    title: 'Databases',
+    icon: Database,
+    color: 'from-emerald-500 to-green-400',
+    skills: ['MongoDB', 'MySQL', 'PostgreSQL'],
+  },
+  {
+    title: 'Cloud & DevOps',
+    icon: Cloud,
+    color: 'from-orange-500 to-amber-400',
+    skills: [
+      'AWS EC2',
+      'Docker',
+      'Docker Compose',
+      'Multi-stage Docker',
+      'Terraform',
+      'Ansible',
+      'Jenkins',
+      'GitHub Actions',
+      'Nginx',
+      'Linux / Ubuntu',
+      'Bash',
+    ],
+  },
+  {
+    title: 'Tools',
+    icon: Wrench,
+    color: 'from-rose-500 to-pink-400',
+    skills: ['Git', 'GitHub', 'Postman', 'Cloudinary', 'Multer'],
+  },
+];
