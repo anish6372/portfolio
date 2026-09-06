@@ -94,7 +94,7 @@ export const PROJECTS = [
       'Responsive UI design for mobile and desktop',
     ],
     github: '#',
-    demo: null,
+    demo: 'https://rentifai.com/',
   },
   {
     id: 'iac-deployment',
@@ -144,7 +144,7 @@ export const PROJECTS = [
       'Reproducible environments from development to production',
       'Automated security group and networking configuration',
     ],
-    github: '#',
+    github: 'https://github.com/anish6372/ansible-aws-project',
     demo: null,
     quote:
       'Automated, repeatable infrastructure provisioning and application deployment using Infrastructure as Code and CI/CD.',
