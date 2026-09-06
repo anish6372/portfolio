@@ -6,11 +6,11 @@ import { SITE_CONFIG } from '@/data/constants';
 
 export default function Hero() {
   return (
-    <section className="relative pt-24 pb-12 overflow-hidden bg-zinc-900 min-h-[90vh] flex items-center">
+    <section className="relative pt-24 pb-12 overflow-x-hidden bg-zinc-900 min-h-[90vh] flex items-center">
       <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
         
         {/* Blue background block matching Dribbble design */}
-        <div className="absolute top-0 right-0 w-[95%] md:w-[80%] h-[120%] bg-[#5A7EE2] rounded-3xl -z-10 transform origin-top-right skew-y-2 md:-skew-y-2 -translate-y-12 shadow-2xl"></div>
+        <div className="absolute top-0 right-0 w-full md:w-[80%] h-[120%] bg-[#5A7EE2] rounded-3xl -z-10 transform origin-top-right skew-y-1 md:-skew-y-2 -translate-y-12 shadow-2xl"></div>
         
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           
@@ -24,7 +24,7 @@ export default function Hero() {
               <h2 className="text-[#F9E13E] text-xl md:text-2xl font-black mb-2 tracking-widest uppercase">
                 HI, I AM {SITE_CONFIG.name.toUpperCase()}
               </h2>
-              <h1 className="text-white text-6xl sm:text-7xl lg:text-[6.5rem] font-black leading-[0.85] tracking-tighter mb-8 drop-shadow-md">
+              <h1 className="text-white text-4xl sm:text-7xl lg:text-[6.5rem] font-black leading-[0.9] sm:leading-[0.85] tracking-tighter mb-6 sm:mb-8 drop-shadow-md">
                 FULL<br/>STACK<br/>ENGINEER
               </h1>
               
