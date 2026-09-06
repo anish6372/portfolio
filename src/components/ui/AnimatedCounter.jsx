@@ -5,8 +5,8 @@ import { useInView, motion } from 'framer-motion';
 
 export default function AnimatedCounter({ value, suffix = '', prefix = '', duration = 2 }) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
-  const [displayValue, setDisplayValue] = useState(0);
+  const isInView = useInView(ref, { once: true, margin: '0px' });
+  const [displayValue, setDisplayValue] = useState(value);
 
   useEffect(() => {
     if (!isInView) return;
@@ -37,13 +37,8 @@ export default function AnimatedCounter({ value, suffix = '', prefix = '', durat
   }, [isInView, value, duration]);
 
   return (
-    <motion.span
-      ref={ref}
-      initial={{ opacity: 0 }}
-      animate={isInView ? { opacity: 1 } : {}}
-      className="tabular-nums"
-    >
+    <span ref={ref} className="tabular-nums opacity-100">
       {prefix}{displayValue}{suffix}
-    </motion.span>
+    </span>
   );
 }
