@@ -31,7 +31,7 @@ export const EXPERIENCE = [
     role: 'Junior Developer',
     company: 'Credencesoft',
     location: '',
-    period: '2024',
+    period: 'Feb 2024 – Aug 2024',
     type: 'past',
     highlights: [
       'Developed Hotelmate and BookOne Connect hospitality management applications',
