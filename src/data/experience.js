@@ -6,7 +6,7 @@ export const EXPERIENCE = [
     period: 'May 2025 – Present',
     type: 'current',
     highlights: [
-      'Engineered RMA Ticket Management system handling 3,000+ active tickets and 200+ daily new tickets',
+      'Engineered RMA system handling 3,000+ active tickets and 200+ daily new tickets',
       'Built production-scale React.js applications with optimized Core Web Vitals (INP: 177ms, CLS: 0.08)',
       'Implemented performance optimizations: debouncing, lazy loading, memory optimization, reduced unnecessary re-renders',
       'Developed features for Flowwork.ai SaaS platform with concurrent user workflows',

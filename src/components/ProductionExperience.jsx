@@ -13,7 +13,7 @@ const PRODUCTION_METRICS = [
 ];
 
 const ENGINEERING_WORK = [
-  'High-throughput ticket management system with concurrent user support',
+  'High-throughput RMA system with concurrent user support',
   'React.js frontend with optimized Core Web Vitals',
   'REST API integration with proper loading and error state management',
   'Debouncing input handlers for search and filter operations',
@@ -49,7 +49,7 @@ export default function ProductionExperience() {
         <ScrollReveal delay={0.1}>
           <div className="mt-12 mb-8 text-center">
             <h3 className="text-lg font-semibold text-white mb-1">
-              RMA Ticket Management System
+              RMA System
             </h3>
             <p className="text-sm text-zinc-500">Diatoz Solutions — Production Application</p>
           </div>
