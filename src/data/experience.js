@@ -34,10 +34,10 @@ export const EXPERIENCE = [
     period: 'Feb 2024 – Aug 2024',
     type: 'past',
     highlights: [
-      'Developed Hotelmate and BookOne Connect hospitality management applications',
-      'Built Rentifai car rental platform with Angular and React',
-      'Implemented REST API integration across multiple client projects',
-      'Worked across Angular and React ecosystems for different product requirements',
+      'Developed Hotelmate (hotelmate.com) and BookOne Connect hospitality management applications with Angular',
+      'Built Rentifai (rentifai.com) car rental platform with React, Tailwind CSS, and Node.js',
+      'Implemented REST API integrations and backend services using Node.js',
+      'Worked across Angular, React, and Node.js ecosystems for diverse client requirements',
     ],
   },
 ];

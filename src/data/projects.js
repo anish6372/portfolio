@@ -81,7 +81,7 @@ export const PROJECTS = [
       'Redux',
       'JWT',
       'REST APIs',
-      'CSS3',
+      'Tailwind CSS',
     ],
     highlights: [
       'Dual-portal architecture for renters and fleet owners',
